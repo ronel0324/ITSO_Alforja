@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IP Services</title>
+  <style>
+
+    h2 {
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+      gap: 100px;
+      margin-right: 10%;
+      padding-right: 10%;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 50px;
+      border-left: 8px solid transparent;
+      border-radius: 6px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      left: 30%;
+    }
+
+    .card.orange { border-left-color: #e38c28; }
+    .card.light-orange { border-left-color: #f5a623; }
+    .card.gray { border-left-color: #999; }
+    .card.green { border-left-color: #2a9d8f; }
+    .card.teal { border-left-color: #008080; }
+
+    .card h3 {
+      margin-top: 0;
+      text-transform: uppercase;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .file-btn {
+      margin-top: 15px;
+      padding: 8px 18px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .orange .file-btn { background-color: #e38c28; }
+    .green .file-btn { background-color: #2a9d8f; }
+    .teal .file-btn { background-color: #008080; }
+  </style>
+</head>
+<body>
+
+<h2>Download Files</h2>
+
+<div class="grid">
+  <div class="card orange">
+    <h3>Patent</h3>
+    <p>Do you have an innovation that’s new, inventive, and can be used in industry? You can protect it through a patent.</p>
+    <a class="file-btn" href="assets/files/patent_app.pdf" target="_blank">File</a>
+
+  </div>
+
+  <div class="card light-orange">
+    <h3>Utility Model</h3>
+    <p>Is your innovation new and useful in industry but may not be inventive enough? This can still be protected as a utility model.</p>
+    <a class="file-btn" href="assets/files/utility_model.pdf" target="_blank">File</a>
+  </div>
+
+  <div class="card gray">
+    <h3>Industrial Design</h3>
+    <p>Are you in the field of visual design and looking to protect your work? New or original designs may be protected.</p>
+    <a class="file-btn" href="assets/files/industrial_design.pdf" target="_blank">File</a>
+  </div>
+
+  <div class="card gray">
+    <h3>Trademark</h3>
+    <p>If you’re a business, distinguishing your goods or services from others may be a competitive advantage.</p>
+    <a class="file-btn" href="assets/files/trademark_app.pdf" target="_blank">File</a>
+  </div>
+
+  <div class="card green">
+    <h3>Copyright</h3>
+    <p>Protection for your literary, artistic, or scientific work is automatic from the moment you create it.</p>
+    <a class="file-btn" href="assets/files/copyright.pdf" target="_blank">File</a>
+    <a class="file-btn" href="assets/files/supp_sheet.pdf" target="_blank">Supplemental Sheet</a>
+  </div>
+
+</body>
+</html>
